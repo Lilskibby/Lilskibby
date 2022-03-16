@@ -1,9 +1,32 @@
-- 👋 Hi, I’m @Lilskibby 
-- 👀 I’m interested in lots of things
-- 🌱 I’m currently learning ArrayLists
-- 📫 How to reach me ... @Lil_skibby on instagram
+import java.util.Scanner;
 
-<!---
-Lilskibby/Lilskibby is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Public class Woo
+{
+  public static main(String[] args)
+  {
+    Scanner scan = new Scannee(System.in);
+    String woo = "woo"; 
+    System.out.println("Do you woo, like i do?");
+    boolean doTheyWoo;
+    if(scanner.nextLine().equals("yes")
+          || scanner.nextLine().equals("yea")
+          || scanner.nextLine().equals("ig")
+          || scanner.nextLine().equals("sure")
+          || scanner.nextLine().equals("yas"))
+    {
+      doTheyWoo = true;
+    }
+    else
+    {
+      doTheyWoo = false;
+    }
+    if(doTheywoo)
+    {
+      doTheyWoo = false;
+    } 
+    if(!doTheyWoo)
+    {
+      System.out.println("haha screw you you don't woo like i do");
+    }
+  }
+}
